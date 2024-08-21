@@ -134,6 +134,25 @@ body {
     font-weight: 400;
 }
 
+.phone-top-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 2px;
+    transform: translateY(-5px);
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+}
+
+.phone-top-right > div {
+    width: 2.5px;
+    height: 2.5px;
+    background-color: white;
+    border-radius: 1rem;
+}
+
 /* PHONE BOTTOM */
 
 .phone-bottom {
